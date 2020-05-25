@@ -1,0 +1,94 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 12px;
+	user-select: none;
+}
+
+
+svg {
+	stroke-width:1;
+	box-shadow: 0px 0px 10px -5px rgba(0,0,0,0.5);
+	border-radius: 5px;
+	display: block;
+	margin: auto;
+	border: 1px solid rgba(0,0,0,0.2);
+	padding: 20px;
+
+}
+svg path {
+	fill: none;
+}
+svg circle {
+	fill: blue;
+	stroke: #aaa;
+	cursor: move;
+}
+svg .points-menu g {
+	opacity: 0.2;
+}
+svg .points-menu g.active {
+	cursor: pointer;
+	opacity: 1;
+}
+svg .points-menu line {
+	stroke: #777;
+	stroke-width: 3;
+}
+svg .points-menu rect {
+	fill: white;
+}
+.sidebar {
+	display: inline-block;
+	position: relative;
+	vertical-align: top;
+	margin-top: 20px;
+	color: #444;
+}
+.sidebar .header {
+	font-size: 14px;
+	font-weight: bold;
+	text-align: right;
+	color: #aaa;
+	width: 100%;
+}
+.menu .item {
+	padding: 5px;
+	border: 1px solid #ddd;
+	margin: 4px 2px;
+	float: left;
+	cursor: pointer;
+	border-radius: 8px;
+	width: 200px;
+	text-align: center;
+}
+.sidebar .info {
+	float: left;
+	margin-top: 20px;
+	line-height: 1.5em;
+}
+
+.axis path, .axis line{
+	stroke: #8f9397;
+	stroke-width: 0.5px;
+}
+
+.axis text{
+	stroke: #8f9397;
+	stroke-width: 0.5px;
+	/* font-weight : bold; */
+}
+
+/*
+path {
+  fill: none;
+	stroke: #000;
+  stroke-width: 1px;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+} */
+
+.old {
+  stroke: lightgrey;
+  stroke-dasharray: 5;
+  stroke-dashoffset: 5;
+}
