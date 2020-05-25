@@ -1,2 +1,3 @@
 # D3-Fourier
-Fourier animation with D3
+Fourier transform animation using D3.js
+
